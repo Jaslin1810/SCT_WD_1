@@ -1,0 +1,105 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+
+
+  
+  .picture1{
+    margin-top: 50px;
+    margin-bottom: 400px;
+  }
+  .picture1 p{
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .picture h1{
+    margin-top: 40px;
+  }
+  h1{
+    color: rgb(4, 4, 4);
+    font-style: initial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  
+  /* Page Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  body{
+    background-image:url('mountain.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      color: white;
+  }
+  
+  section {
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  /* Header and Navigation Styles */
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  /* Hover Effect */
+  .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Scrolled Effect */
+  .header.scrolled {
+    background-color: #111;
+  }
+ 
